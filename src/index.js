@@ -27,7 +27,7 @@ function onValue(e) {
         return;
       }
 
-      if (country.length <= 10 && manyCountry >= 2) {
+      if (country.length <= 10 && country.length >= 2) {
       contForCard.innerHTML = countries(country)
         e.target.value = '';
 
