@@ -37,7 +37,6 @@ export const App = document.getElementById("app");
 
 App.innerHTML = `
 <div class="container">
-  <h1>Choose a country which you want to know more :) </h1>
-  <input type='text' name="country"></input>
-</div>
-`;
+  <h1>Choose a country which you want to know more</h1>
+  <input type='text' name="country"> </input>
+</div>`;
