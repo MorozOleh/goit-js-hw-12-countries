@@ -14,6 +14,16 @@ body {
     'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   margin: 0;
   padding: 0;
+  background-color: #442937ba;
+}
+
+.wrapper {
+  background-color: #078d24;
+  margin: 0 auto;
+  max-width: 1200px;
+  height: 100vh;
+  text-align: center;
+  padding-top: 80px;
 }
 
 .card {
@@ -21,6 +31,12 @@ body {
   display: flex;
   flex-wrap: wrap;
   padding: 0 0 150px 0;
+}
+
+.form-control {
+  width: 50%;
+  height: 30px;
+  margin-bottom: 100px;
 }
 
 h1 {
@@ -34,17 +50,10 @@ h1 {
   padding-left: 300px;
 }
 
-#app {
-  /* background-color: lawngreen; */
-  width: 1200px;
-  margin: 0 auto;
-  background-color: lightskyblue;
-}
-
-.container {
-  text-align: center;
-}
-
 .image-flag {
   width: 500px;
+}
+
+.card-list {
+  list-style-type: none;
 }
